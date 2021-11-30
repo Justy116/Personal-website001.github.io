@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    margin: 15px 0 10px 0;
+}
+
+.logo {
+    height: 40px;
+    margin: 0 0 0 2%;
+}
+
+.lista-navbar {
+    list-style: none;
+    margin: 10px 0 0 50%;
+    display: flex;
+}
+
+.lista1 {
+    margin: 0 0 0 35%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+header {
+    background-color: #FBFBFB;
+    display: flex;
+}
+
+.img2 {
+    height: 600px;
+    padding: 20px 0 0 0;
+}
+
+.sub-sezione1 {
+    margin: 25vh 20% 0 8%;
+}
+
+.titolo1 {
+    color: #32333C;
+     font-size: 90px;
+     margin: 0 0 30px 0;
+}
+
+.testo1 {
+    color: #7e808a;
+    font-size: 30px;
+}
+
+.btn {
+    color: white;
+    background-color: #FBD214;
+    border: none;
+    margin: 50px 0 50px 0;
+    padding: 10px 20px 10px 20px ;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #FBD214;
+    border: 1px solid #FBD214;
+}
+
+.sezione1 {
+    display: flex;
+    margin: 50px 0 0 0;
+    height: 300px;
+    width: 100%;
+}
+
+.sub-sezione2 {
+    margin: 0 200px 0 200px;
+}
+
+.titolo2 {
+    font-size: 80px;
+    color: #32333C;
+    background-image:  url("http://droitthemes.com/wp/mak/wp-content/uploads/2018/10/about_shap_bg.png");
+}
+
+.linea1 {
+    height: 10px;
+    background-color: #FBD214;
+    border: none;
+    margin: 10px 0 0 0;
+}
+
+.sub-sezione3 {
+    margin: 0 300px 0 0;
+}
+
+.testo2 {
+    margin: 50px 0 0 0;
+    line-height: 25px;
+    color: #7e808a;
+}
+
+.titolo3 {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 70px;
+    color: #32333C;
+}
+
+.sezione-skills{
+    height: 600px;
+    background-color: #FBFBFB;
+    width: 100%;
+}
+
+.linea2 {
+    height: 10px;
+    background-color: #FBD214;
+    border: none;
+    margin: 5px 30% 50px 30%;
+}
+
+.skills {
+    margin: 40px 200px 0 200px;
+}
+
+.skills-bar {
+    margin: 20px 0 0 0;
+}
+
+.titolo4 {
+    text-align: center;
+    font-size: 60px;
+    margin: 50px 0 50px 0;
+    color: #32333C;
+}
+
+.linea3 {
+    visibility: hidden;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0 150px 0;
+}
+
+.card:hover {
+    box-shadow: 0 0 25px #333333;
+    margin-top: 20px;
+}
+
+.titolo5 {
+    padding: 20px 0 0 0;
+    margin: 50px 0 50px 0;
+    text-align: center;
+    font-size: 60px;
+    color: #32333C;
+}
+
+footer {
+    background-color: #FBFBFB;
+    width: 100%;
+}
+
+.loghi-footer {
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.loghi01 {
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+.testo-footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .lista-navbar {
+        list-style: none;
+        margin: 10px 0 0 30%;
+        display: flex;
+    }
+    .header {
+        width: 992px;
+    }
+    .img2 {
+        height: 500px;
+        padding: 20px 0 0 0;
+    }
+    .sub-sezione1 {
+        margin: 15vh 10% 0 8%;
+    }
+    .testo2 {
+        margin: 50px 0 0 0;
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .sub-sezione2 {
+        margin: 0 100px 0 100px;
+    }    
+    .sub-sezione3 {
+        margin: 0 100px 0 0;
+    }
+    .card {
+        margin: 0 0 50px 0;
+    }
+
+  }
+
+  @media screen and (max-width: 850px) {
+    .sub-sezione2 {
+        margin: 0 100px 0 50px;
+    }    
+    .sub-sezione3 {
+        margin: 0 50px 0 0;
+    }
+    .card {
+        margin: 0 0 20px 100px;
+    }
+  }
+  
+
+  @media screen and (max-width: 670px) {
+    .sub-sezione2 {
+        margin: 0 100px 0 100px;
+    }    
+    .titolo2 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .sub-sezione3 {
+        margin: 0 0 50px 0;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    
+    .lista-navbar {
+        list-style: none;
+        margin: 5px 0 0 15%;
+        display: flex;
+    }
+    .lista1 {
+    margin: 0 0 0 10%;
+    }
+    .logo {
+        height: 30px;
+        margin: 0 0 0 2%;
+    }
+    .titolo1 {
+        font-size: 50px;
+    }
+    .sub-sezione1 {
+        margin: 10vh 10% 0 5%;
+    }
+    .testo1 {
+        color: #7e808a;
+        font-size: 20px;
+    }
+    .btn {
+        margin: 25px 0 25px 0;
+        padding: 5px 10px 5px 10px;
+    }
+    .img2 {
+        display: none;
+    }
+    .sezione1 {
+        margin: 50px 0 50px 0x;     
+    }
+    .sub-sezione2 {
+        margin: 0 10px 0 25px;
+    }
+    .titolo2 {
+        font-size: 30px;
+        margin-top:50px;
+    }
+    .testo2 {
+        margin: 20px 0 0 0;
+        line-height: 20px;
+        color: #7e808a;
+    }
+    .titolo3 {
+        margin: 10px 0 0 0;
+        font-size: 35px;
+    }
+    .skills {
+        margin: 0 10px 0 10px;
+        padding: 50px 0 0 0;
+    }
+    .titolo4 {
+        font-size: 30px;
+         margin: 20px 0 20px 0;
+    }
+    .linea3 {
+        visibility: visible;
+        height: 10px;
+        background-color: #FBD214;
+        border: none;
+        margin: 0 25% 50px 25%;
+    }
+    .card {
+        margin: 0 20px 20px 20px;
+    }
+    .cards {
+        margin: 20px 0 50px 0;
+    }
+    .titolo5 {
+        font-size: 30px;
+        margin: 20px 0 20px 0;
+    }
+    .loghi-footer {
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    .loghi01 {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+  }
+
